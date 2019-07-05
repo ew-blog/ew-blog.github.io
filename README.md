@@ -1,2 +1,1 @@
-# ew
-EW...another emotional wellness blog
+# EW - Another Emotional Wellness blog
