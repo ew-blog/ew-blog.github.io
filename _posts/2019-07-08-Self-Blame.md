@@ -1,6 +1,6 @@
 ---
 title: "Self-Blame"
-date: 2019-07-04 23:40:33 -0500
+date: 2019-07-08 14:04:54 -0500
 layout: post
 ---
 
@@ -64,3 +64,4 @@ If I learn that I've consistently been crossing someone's boundaries and that ma
 
 I understand and care that my words are hurtful and confusing. And I have consistently done my best to mimize that impact. But I will not stop taking steps to make sure my boundaries are protected, nor will I convince myself that my feelings are invalid, just because someone will be hurt otherwise. 
 
+If that makes me less than a decent person, then so be it.
