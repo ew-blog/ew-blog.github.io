@@ -1,18 +1,13 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hey there. My name is Austin. People call me Paco.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm a mess.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This website is an attempt for me to explore new ways to approach emotional well-being, have the courage to share my story, and maybe help other people do the same.
 
-
-[jekyll-organization]: https://github.com/jekyll
+If you need to contact me about any of my posts, email me at rainwater@heckin.io.

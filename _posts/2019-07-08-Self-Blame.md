@@ -1,7 +1,8 @@
 ---
 title: "Self-Blame"
 date: 2019-07-08 14:04:54 -0500
-layout: post
+layout: single
+category: mental-health
 ---
 
 I am realizing I have a habit of finding defects in myself and blaming myself whenever I am uncomfortable in my environment, instead of recognizing my feelings as valid and holding people accountable for their actions.

@@ -13,25 +13,81 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: EW...another Emotional Wellness blog
+author:
+  name: Austin "Paco" Rainwater
+  bio: I write things sometimes
+  location: Austin, Texas
+  avatar: "/assets/images/pfp.jpg"
+  links:
+    - label: "@pacoawkward"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/pacoawkward"
+    - label: "@pacorain"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pacorain"
+    - label: "Blog Repository"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ew-blog/ew-blog.github.io"
+email: rainwater@heckin.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  My personal blog usually about my journey to emotional wellness,
+  sometimes about tech stuff to distract myself from what a difficult 
+  journey that is. 
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://ew.heckin.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: pacoawkward
+github_username:  pacorain
+timezone: America/Chicago
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-143536634-1"
+    anonymize_ip: false # default
+
+search: true
+repository: "ew-blog/ew-blog.github.io"
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark" # "github-dark"
+    issue_term: "title"
+    label: "comment"
+
+permalink: /:categories/:title/
 
 paginate: 5
 paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.16.4"
+minimal_mistakes_skin: dark
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-include-cache
+
+social:
+  type:  Person
+  name:  Austin Rainwater
+  links:
+    - "https://twitter.com/pacoawkward"
+    - "https://facebook.com/austindearmond"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
