@@ -14,24 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: EW...another Emotional Wellness blog
-author:
-  name: Austin "Paco" Rainwater
-  bio: I write things sometimes
-  location: Austin, Texas
-  avatar: "/assets/images/pfp.jpg"
-  links:
-    - label: "@pacoawkward"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/pacoawkward"
-    - label: "@pacorain"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/pacorain"
-    - label: "Blog Repository"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ew-blog/ew-blog.github.io"
+name: Austin "Paco" Rainwater
 email: rainwater@heckin.io
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal blog usually about my journey to emotional wellness,
+  My personal blog, usually about my journey to emotional wellness,
   sometimes about tech stuff to distract myself from what a difficult 
   journey that is. 
 baseurl: "/" # the subpath of your site, e.g. /blog
