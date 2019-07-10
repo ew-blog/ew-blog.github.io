@@ -39,6 +39,12 @@ defaults:
       related: true
 
 
+footer:
+  links:
+    - label: "Open in GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ew-blog/ew-blog.github.io"   
+
 analytics:
   provider: "google-gtag"
   google:
